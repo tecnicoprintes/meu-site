@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Meu Portfólio</title>
+    <style>
+        /* Estilo geral */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 30px 10px;
+            font-size: 24px;
+        }
+
+        header p {
+            font-size: 16px;
+            color: #ccc;
+            margin-top: 5px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #222;
+            margin-bottom: 10px;
+        }
+
+        /* Estilo da lista */
+        ul {
+            text-align: left;
+            margin: 10px auto;
+            display: inline-block;
+        }
+
+        /* Quadrado do CSS */
+        .quadrado {
+            width: 100px;
+            height: 100px;
+            background: red;
+            margin: 20px auto;
+            border-radius: 8px;
+        }
+
+        /* Botão */
+        button {
+            background: #007bff;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background: #0056b3;
+        }
+
+        /* Mensagem JS */
+        #mensagem {
+            margin-top: 15px;
+            font-weight: bold;
+            color: #444;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Meu Portfólio</h1>
+        <p>Exemplos com HTML, CSS e JavaScript</p>
+    </header>
+
+    <div class="container">
+
+        <!-- Exemplo 1 -->
+        <div class="card">
+            <h2>Exemplo 1 - Estrutura HTML</h2>
+            <p>Este é um exemplo simples de HTML com título, parágrafo e lista:</p>
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ul>
+        </div>
+
+        <!-- Exemplo 2 -->
+        <div class="card">
+            <h2>Exemplo 2 - Estilização com CSS</h2>
+            <p>Este parágrafo está estilizado com CSS.</p>
+            <div class="quadrado"></div>
+        </div>
+
+        <!-- Exemplo 3 -->
+        <div class="card">
+            <h2>Exemplo 3 - Interatividade com JavaScript</h2>
+            <p>Clique no botão abaixo:</p>
+            <button onclick="mostrarMensagem()">Clique aqui!</button>
+            <p id="mensagem"></p>
+        </div>
+
+    </div>
+
+    <script>
+        function mostrarMensagem() {
+            document.getElementById("mensagem").innerHTML = "Você clicou no botão! 🚀";
+        }
+    </script>
+
+</body>
+</html>
+
+
+
