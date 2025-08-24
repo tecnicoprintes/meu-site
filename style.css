@@ -1,0 +1,169 @@
+body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #222;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            margin: 5px 0 15px;
+            font-size: 1.2rem;
+        }
+        header .social-icons a {
+            color: #fff;
+            margin: 0 10 px;
+            font-size: 1.2rem;
+            text-decoration: none;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .projects {
+            display: grid;
+            grid-template-coolumns: repeat(auto-fit, minmax(280px, 1 fr)):
+            gap: 20px;
+        }
+        .card {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card i {
+            font-size: 3rem;
+            color: #007bff;
+            margin-bottom: 15px;
+        }
+        form {
+            display: flex;
+            flex-direction: coolumn;
+            gap: 15px;
+            max-width: 500px;
+            margin: auto;
+        }
+        form .input-group i {
+            margin-right: 10px;
+            color: #007bff;
+        }
+        form input, form textarea {
+            border: none;
+            outline: none;
+            width: 100%;
+            font-size: 1rem;
+        }
+        form button {
+            background: #007bff;
+            color: #fff;
+            border: none;
+            padding: 12px;
+            border-radius: 8px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        form {
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0  2px 6px rgba(0,0,0,0.1);
+        }
+
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .input-group {
+            display: flex;
+            align-items: center;
+            background: #fff;
+            border: 1px solid #ccc;
+            padding: 8px;
+            border-radius: 5px;
+        }
+
+        .input-group i{
+            margin-right: 8px;
+            color: #555;
+        }
+
+        .input-group input,
+        .input-group textarea {
+            border: none;
+            outline: none;
+            flex: 1;
+            font-size: 14px;
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        .input-group textarea {
+            resize: none;
+            height: 100px;
+        }
+
+        button {
+            button: 
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 12px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button {
+            width: 100%;
+            font-size: 16px;
+            padding: 12px;
+        }
+
+        button:hover {
+            background: #0056b3;
+        }
+
+        form button:hover {
+            background: #0056b3;
+        }
+        footer {
+            background: #222;
+            color: #ccc;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #222;
+            color: #fff;
+            font-size: 14px;
+        }
+
+
+        footer a {
+            color: #ccc;
+            margin: 0 10px;
+            font-size: 1.2rem;
+        }
